@@ -1,0 +1,74 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    font-family: sans-serif;
+    outline: none;
+    background-color: #ecf0f3;
+}
+
+.container{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #ecf0f3;
+}
+
+.calc{
+    box-shadow: 0px 0px 15px 1px  grey , 
+                13px 1px 13px 7px rgba(.16,.16,.16,.16) ;
+                border-radius: 30px;
+                padding: 16px;
+                display: grid;
+                grid-template-columns: repeat(4,66px);
+}
+
+#inputext{
+    grid-column: span 4;
+    height: 68px;
+    width: 258px;
+    box-shadow: inset -6px -6px 13px #fff, 
+    inset 6px 6px 13px rgba(0,0,0,.16) ;
+    background-color: #ecf0f3;
+    border: none;
+    border-radius: 32px;
+    color: rgba(26, 25, 25);
+    text-align: end;
+    margin: 40px 0px 30px 0px;
+    font-size: 40px;
+    
+}
+
+button{
+    box-shadow: 0px 0px 10px 1px grey, 
+                6px 6px 13px rgba(0,0,0,.16) ;
+    background-color: #ecf0f3;
+    border: none;
+    border-radius: 50%;
+    height: 50px;
+    width: 50px;
+    margin: 10px;
+    font-weight: bold;
+    font-size: 20px;
+    transition: all 200ms ease;
+    cursor: pointer;
+
+}
+
+ .equal{
+    width: 120px;
+    border-radius: 42px;
+    box-shadow:  0px  0px 10px 1px grey, 
+     6px 6px 13px rgba(0,0,0,.16) ;
+    background-color: #ecf0f3;
+    border: none;
+    border-radius: 32px;
+
+
+}
+
+button:hover{
+    
+    transform: scale(1.20);
+    
+}
