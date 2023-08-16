@@ -1,2 +1,10 @@
 # myProjects
-In this folder there  are many projects for web design
+
+Projects for website dev
+Calculator
+Clock
+Dark Light Calculator
+Quiz
+Snak
+Stop Watch
+
